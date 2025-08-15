@@ -47,3 +47,57 @@ pip install -r requirements.txt
 
 3. Run the Streamlit app
 streamlit run app.py
+
+
+🎯 Usage
+
+Open the Streamlit web app in your browser.
+
+Enter a sequence of words in the input box.
+
+Click Predict to get the next word.
+
+Example:
+
+Input: "To be, or not to"
+Predicted next word: "be"
+
+🧠 Model Training
+
+Loss Function: Categorical Cross-Entropy
+
+Optimizer: Adam
+
+Early Stopping: Monitors validation loss to avoid overfitting
+
+Training/Validation Split: 80/20
+
+Training Code Example:
+
+history = model.fit(
+    X_train, y_train,
+    validation_split=0.2,
+    epochs=50,
+    batch_size=64,
+    callbacks=[early_stopping]
+)
+
+📈 Evaluation
+
+The model is tested on example sentences to evaluate next-word prediction accuracy.
+
+Performs well on common patterns.
+
+Rare or complex phrases may yield less accurate predictions.
+
+🔮 Future Work
+
+Expand dataset for better generalization.
+
+Experiment with Transformer-based models for improved accuracy.
+
+Deploy as a REST API for wider usage.
+
+🤝 Contributing
+
+Contributions are welcome! Open an issue or submit a pull request for improvements or bug fixes.
