@@ -13,6 +13,13 @@ Given a sequence of words, the model predicts the most probable next word. We us
 
 **Try it live:** [Open Streamlit App](https://lstmrnnnextwordprediction-cdxw7yuaspjfzuf6cwzy2m.streamlit.app/)
 
+## 🛠 Tech Stack
+- **Python 3.10**
+- **TensorFlow 2.x** (for LSTM model)
+- **Keras** (for deep learning layers)
+- **Streamlit** (for web app deployment)
+- **NumPy & Pandas** (for data processing)
+- **NLTK / Tokenizer** (for text preprocessing)
 
 **Key Features:**
 - Real-time next-word predictions via a Streamlit web app.
