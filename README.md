@@ -45,12 +45,12 @@ cd next-word-prediction
 ```bash
 pip install -r requirements.txt
 
-
+```
 ## 3. Run the Streamlit app
 ```bash
 streamlit run app.py
 
-
+```
 ## 🎯 Usage
 ```bash
 Open the Streamlit web app in your browser.
@@ -63,9 +63,9 @@ Example:
 
 Input: "To be, or not to"
 Predicted next word: "be"
-
-🧠 Model Training
-
+```
+## 🧠 Model Training
+```bash
 Loss Function: Categorical Cross-Entropy
 
 Optimizer: Adam
@@ -83,23 +83,24 @@ history = model.fit(
     batch_size=64,
     callbacks=[early_stopping]
 )
-
-📈 Evaluation
-
+```
+## 📈 Evaluation
+```bash
 The model is tested on example sentences to evaluate next-word prediction accuracy.
 
 Performs well on common patterns.
 
 Rare or complex phrases may yield less accurate predictions.
-
-🔮 Future Work
-
+```
+## 🔮 Future Work
+```bash
 Expand dataset for better generalization.
 
 Experiment with Transformer-based models for improved accuracy.
 
 Deploy as a REST API for wider usage.
-
-🤝 Contributing
-
+```
+## 🤝 Contributing
+```bash
 Contributions are welcome! Open an issue or submit a pull request for improvements or bug fixes.
+```
