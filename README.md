@@ -41,7 +41,7 @@ Given a sequence of words, the model predicts the most probable next word. We us
 git clone https://github.com/vardhanthadala/next-word-prediction.git
 cd next-word-prediction
 ```
-##2. Install dependencies
+## 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 
