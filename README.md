@@ -46,12 +46,13 @@ cd next-word-prediction
 pip install -r requirements.txt
 
 
-3. Run the Streamlit app
+## 3. Run the Streamlit app
+```bash
 streamlit run app.py
 
 
-🎯 Usage
-
+## 🎯 Usage
+```bash
 Open the Streamlit web app in your browser.
 
 Enter a sequence of words in the input box.
