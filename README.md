@@ -11,7 +11,7 @@
 This project develops a **Next Word Prediction model** using **LSTM networks**.  
 Given a sequence of words, the model predicts the most probable next word. We use Shakespeare's *Hamlet* as the dataset for training, providing rich and complex language patterns.
 
-**Try it live:** [Open Streamlit App](https://your-live-app-link)
+**Try it live:** [Open Streamlit App]([https://your-live-app-link](https://lstmrnnnextwordprediction-cdxw7yuaspjfzuf6cwzy2m.streamlit.app/))
 
 **Key Features:**
 - Real-time next-word predictions via a Streamlit web app.
